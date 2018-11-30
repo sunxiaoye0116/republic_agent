@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-NMPATH="/home/[USERNAME]/github/netmap/"
+NMPATH="/home/[SERVER_USERNAME]/github/netmap/"
 IFACE="eth3"
 IFACE2="eth2"
 IP=`/sbin/ifconfig ${IFACE} | grep -o -E '([[:digit:]]{1,3}.){3}[[:digit:]]{1,3}' | head -n 1`
